@@ -38,19 +38,20 @@
 
     <body>
       <header
-        class="flex flex-col md:flex-row items-center justify-between p-8 mb-12"
+        class="flex flex-col md:flex-row items-center position-fixed top-0 left-0 w-full justify-between p-8 mb-12"
       >
         <div class="logo text-xl font-bold flex items-center space-x-2">
           <span>Lindo</span><i class="bx bxs-circle"></i>
         </div>
 
-        <nav class="navbar flex space-x-4 mt-4 mb md:mt-0">
-          <a href="#" class="text-gray-700 hover:text-gray-900">About</a>
-          <a href="#" class="text-gray-700 hover:text-gray-900">Skills</a>
-          <a href="#" class="text-gray-700 hover:text-gray-900">Portfolio</a>
+        <nav class="navbar flex space-x-10 mb md:mt-0">
+          <a href="#about" class="text-gray-700 hover:text-gray-900">About</a>
+          <a href="#services" class="text-gray-700 hover:text-gray-900">Services</a>
+          <a href="#skills" class="text-gray-700 hover:text-gray-900">Skills</a>
+          <a href="#portfolio" class="text-gray-700 hover:text-gray-900">Portfolio</a>
         </nav>
 
-        <div class="connect flex space-x-4 mt-4 md:mt-0">
+        <div class="connect flex justify-between space-x-4 mt-4 md:mt-0">
           <a
             href="mailto:lindokuhlemtengwane@gmail.com"
             class="text-gray-700 hover:text-gray-900"
@@ -112,7 +113,7 @@
     <h1 class="sub-title">About <span>Me</span> </h1>
   </div>    
    
-<div class="grid w-full grid-cols-1 my-auto md:grid-cols-2 xl:gap-14 md:gap-5 p-4 lg:p-24" >
+<div class="grid w-full grid-cols-1 my-auto md:grid-cols-2 xl:gap-14 md:gap-5 p-4 lg:p-24"id="about" >
 
   <div class="w-full mt-8">
     <img
@@ -120,9 +121,9 @@
       src="images/LIWV2878.JPG"
       alt="Profile Picture"
     />
-
+   <a href="https://docs.google.com/document/d/1YsigNXS1Zh01N-9r-zRK10egoofBdxlF9GrbURlhYiU/edit">
     <button class="button mt-32 font-bold">
-      Download Resume</button>
+      Download Resume</button></a>
   </div>
    <div class="flex flex-col justify-center col-span-1 text-left lg:text-start">
 
@@ -190,7 +191,7 @@ I've worked on various projects ranging from simple landing pages to complex
 <h1 class="sub-title">My <span>Skills</span> </h1>
 
 
-<section class="container py-10 grid grid-cols-1 md:grid-cols-2 gap-32 items-center justify-center mb-20" id="features">
+<section class="container py-10 grid grid-cols-1 md:grid-cols-2 gap-32 items-center justify-center mb-20" id="skills">
   <div>
     <h1 class="heading1">Technical Skills</h1>
     <div class="technical-bars">
@@ -233,7 +234,7 @@ I've worked on various projects ranging from simple landing pages to complex
 
     </div>
   </div>
-  <div class=" items-center justify-center mt-12 ">
+  <div class=" items-center justify-center ">
     <h1 class="heading1">Professional Skills</h1>
     <div class="radial-bars">
       <div class="radial-bar">
@@ -281,18 +282,18 @@ I've worked on various projects ranging from simple landing pages to complex
 <section class="projects" id="portfolio">
   <div class="container flex flex-col items-center gap-16">
     <div class="grid w-full grid-col-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-         <div class="project-list">
-          <img src="images/Screenshot 2024-03-29 180851.png" alt="" class="portfolio-img">
+         <div class="project-list"><a href="https://cache-bank.netlify.app/"><img src="images/Screenshot 2024-03-29 180851.png" alt="" class="portfolio-img"></a>
 
  
          </div>
 
          <div class="project-list">       
-          <img src="images/Screenshot 2024-03-29 180851.png" alt="" class="portfolio-img">
+         <a href="https://lindos-shopping-cart.netlify.app/"><img src="images/Screenshot 2024-06-03 094949.png" alt="" class="portfolio-img"></a>
          </div>
 
-         <div class="project-list">       <img src="images/Screenshot 2024-03-29 180851.png" alt="" class="portfolio-img">
-         </div>
+         <div class="project-list">       
+          <a href="https://agileboardapp.netlify.app/"><img src="images/agile.png" alt="" class="portfolio-img"></a>
+       </div>
        </div>
  </div>
 </section>
